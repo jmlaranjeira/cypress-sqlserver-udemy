@@ -1,4 +1,16 @@
 {
+  "name": "cypressdb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jmlaranjeira/cypress-sqlserver-udemy.git",
+  "author": "jmlaranjeira <juanma_lgm@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "cypress": "node_modules/.bin/cypress open",
+    "headed": "yarn run test -- --headed",
+    "chrometest": "yarn run test -- --browser chrome"
+  },
   "dependencies": {
     "cypress": "^10.5.0"
   },
